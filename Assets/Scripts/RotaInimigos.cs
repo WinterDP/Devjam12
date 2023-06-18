@@ -6,7 +6,7 @@ public class RotaInimigos : MonoBehaviour
 {
     [SerializeField] private Transform[] lugar;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private int velocidade;
+    [SerializeField] private float velocidade;
     private int numero;
     private bool volta;
     private void Start()
