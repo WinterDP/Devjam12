@@ -6,8 +6,9 @@ public class MovimentoPlayer : MonoBehaviour
 {
     private Vector2 movement;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 4f;
     [SerializeField] private Animator anim;
+    [SerializeField] private float speedLimit = 0.7f;
     [SerializeField] private SpriteRenderer imagem;
     void Update()
     {
@@ -22,8 +23,24 @@ public class MovimentoPlayer : MonoBehaviour
     private void FixedUpdate()
     {
 
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        
+
+        // rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+        if (movement.x != 0 || movement.y != 0)
+        {
+            if (movement.x != 0 && movement.y != 0)
+            {
+                movement.x *= speedLimit;
+                movement.y *= speedLimit;
+            }
+            rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
+        }
+        else
+        {
+            rb.velocity = new Vector2(0f, 0f);
+        }
+
+
     }
     private void SetAnimation(float x, float y)
     {
@@ -49,7 +66,7 @@ public class MovimentoPlayer : MonoBehaviour
             anim.SetBool("andandoVertical", true);
             anim.SetBool("andandoHorizontal", false);
         }
-            
+
         else
         {
             anim.SetBool("andandoHorizontal", false);
