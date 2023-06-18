@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 245bfaa85e7167f49b35a495ff84727b
+guid: 3ad3e708ed808a544a87b6140f70c846
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,164 +101,173 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WonkyWalke_0
+      name: Enemy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 812a2a70018b2024f942daf189007b01
-      internalID: 1397367731
+      spriteID: cc0026c715850aa40aeb87ae7a706128
+      internalID: 1473607122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalke_1
+      name: Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb5ba86cf0b4e24ca66d7737ee67ae1
+      internalID: 411205750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ba6e0ecf3a5a942908c072b6455931
+      internalID: -1011931277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7ab34f6573014db1b06db9264fe63
+      internalID: 1206587975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febf9cac83906e047831578db5a55f6e
+      internalID: 1463629731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a360a668cba2974494c1e2b24312214
-      internalID: 1492578438
+      spriteID: 017f02efde62ced47aacb369d172e2cb
+      internalID: 955291195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalke_2
+      name: Enemy_6
       rect:
         serializedVersion: 2
-        x: 320
+        x: 192
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b8426eb6d3c0148922eda55ce01a58
-      internalID: 86384417
+      spriteID: 8e0fb769995e68f4e81f5bf5a83d4ef1
+      internalID: 1932822781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalke_3
+      name: Enemy_7
       rect:
         serializedVersion: 2
-        x: 480
+        x: 224
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 356359dcc392d59459672f0c16a3999b
-      internalID: -1884703181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WonkyWalke_4
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 143ca301969ee7442ba839d1b49fc368
-      internalID: 816453605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WonkyWalke_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc065d2f9f758ae439d828982f632440
-      internalID: 2119197717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WonkyWalke_6
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07577694ca89edb438248e84dac913b8
-      internalID: -1845170930
+      spriteID: c6789536035064942947cb6bfd9d4ea8
+      internalID: 311989545
       vertices: []
       indices: 
       edges: []
@@ -274,13 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WonkyWalke_1: 1492578438
-      WonkyWalke_3: -1884703181
-      WonkyWalke_2: 86384417
-      WonkyWalke_0: 1397367731
-      WonkyWalke_5: 2119197717
-      WonkyWalke_6: -1845170930
-      WonkyWalke_4: 816453605
+      Enemy_0: 1473607122
+      Enemy_6: 1932822781
+      Enemy_7: 311989545
+      Enemy_4: 1463629731
+      Enemy_2: -1011931277
+      Enemy_3: 1206587975
+      Enemy_1: 411205750
+      Enemy_5: 955291195
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

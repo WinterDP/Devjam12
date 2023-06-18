@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +99,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -116,7 +111,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -427,22 +421,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WonkyIdl_0: 499367728
-      WonkyIdl_1: 454842142
-      WonkyIdl_10: 2090289717
       WonkyIdl_11: 874175514
-      WonkyIdl_12: 1217820315
       WonkyIdl_13: -2002609541
-      WonkyIdl_2: 160581654
-      WonkyIdl_3: 1897534092
-      WonkyIdl_4: 2086883274
-      WonkyIdl_5: 1048329444
-      WonkyIdl_6: -1415720392
-      WonkyIdl_7: -1138850953
       WonkyIdl_8: -503606831
+      WonkyIdl_4: 2086883274
+      WonkyIdl_12: 1217820315
+      WonkyIdl_6: -1415720392
+      WonkyIdl_1: 454842142
+      WonkyIdl_2: 160581654
+      WonkyIdl_10: 2090289717
       WonkyIdl_9: 815159965
-  mipmapLimitGroupName: 
+      WonkyIdl_7: -1138850953
+      WonkyIdl_0: 499367728
+      WonkyIdl_5: 1048329444
+      WonkyIdl_3: 1897534092
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

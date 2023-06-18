@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5aef269e46577a94d81f775d7888feb6
+guid: 2196b65dabbfcc94095b40d30e89a725
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,33 +99,19 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkUp_0
+      name: Tile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 160
-        height: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72bc6370901a9ab4c9e2016a848bb5f7
-      internalID: 661874966
+      spriteID: 66b4c1ffecacf59449278453286a3899
+      internalID: 1549035750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_1
+      name: Tile_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 320
-        width: 160
-        height: 320
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a643dc1fbe0a2428bcf820bb826a9e
-      internalID: 2058145310
+      spriteID: be2ebce4fc7875d4f8cddcc4843ee164
+      internalID: 1002575659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_2
+      name: Tile_2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 160
-        height: 320
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf345e83737451a4198ea27f078d0193
-      internalID: 1191069862
+      spriteID: 42395220bf2409e4e862c4dd299e5bc5
+      internalID: -1187591525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_3
+      name: Tile_3
       rect:
         serializedVersion: 2
-        x: 480
-        y: 320
-        width: 160
-        height: 320
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f4768c5e65378346bcdc890ec348136
-      internalID: 838797286
+      spriteID: 712d148d639e64c42a55e8d0c0bdf983
+      internalID: -575510893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_4
+      name: Tile_4
       rect:
         serializedVersion: 2
-        x: 640
-        y: 320
-        width: 160
-        height: 320
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8171c665127361544a166b774d4429cf
-      internalID: 1604047545
+      spriteID: bab5c022fdd8b5c41941540e4699fac7
+      internalID: -2071240759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_5
+      name: Tile_5
       rect:
         serializedVersion: 2
-        x: 800
-        y: 320
-        width: 160
-        height: 320
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6f685cfd276914990d9c10a5f2ffa2
-      internalID: 1469052303
+      spriteID: 87b335e0d37277248ba41a710d767071
+      internalID: 1468212821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_6
+      name: Tile_6
       rect:
         serializedVersion: 2
-        x: 960
-        y: 320
-        width: 160
-        height: 320
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +245,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca4134fa75776947a2a1f99d93c25c7
-      internalID: 273509157
+      spriteID: 82ed9597de9e27d4abb3d79c33a143ec
+      internalID: 763609452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_7
+      name: Tile_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47a9912407c2df47a137dd3f1b3f24f
+      internalID: 1067753738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e182ed150711712499702b967c4ce92e
+      internalID: 1036262908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76f419b9b8db54481e6e0d7a343eda
+      internalID: -1698669712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f17215fff124499e5fc1652b59bf9
+      internalID: 1633547631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f346500270159847a7bfc4d6a5f9783
+      internalID: -1875452455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfa20c38f352e342b695873deb542c2
-      internalID: -1244795668
+      spriteID: f4187d5028381d14bb45d57b0ce1f33e
+      internalID: -1116676482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_8
+      name: Tile_13
       rect:
         serializedVersion: 2
-        x: 160
+        x: 32
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e7fbae2b24b8904c8bb5ab13ea63d30
-      internalID: -1982290413
+      spriteID: b713589c30493a347b9de76d6e14225c
+      internalID: -1283297383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_9
+      name: Tile_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 64
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45766520f5f510140808a6f9665e2064
-      internalID: 1181269813
+      spriteID: 8f06955cd62394d49ac7f25362df17e2
+      internalID: -664539042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_10
+      name: Tile_15
       rect:
         serializedVersion: 2
-        x: 480
+        x: 128
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,71 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a4c14bbd0d89845afdebe769e9a46d
-      internalID: -943697615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_11
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71ddb0c5dca6f3a4e8c286857fb81ea2
-      internalID: -1819761705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_12
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d2f3cf9cb50e9b49bd7048ec89b3d7a
-      internalID: -1530791886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_13
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ef710b9ca674f544885dabe531a4584
-      internalID: -1135464281
+      spriteID: c4ffd781db77b8b47ad6ca87e99c58d2
+      internalID: 514680028
       vertices: []
       indices: 
       edges: []
@@ -427,22 +451,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WalkUp_0: 661874966
-      WalkUp_1: 2058145310
-      WalkUp_10: -943697615
-      WalkUp_11: -1819761705
-      WalkUp_12: -1530791886
-      WalkUp_13: -1135464281
-      WalkUp_2: 1191069862
-      WalkUp_3: 838797286
-      WalkUp_4: 1604047545
-      WalkUp_5: 1469052303
-      WalkUp_6: 273509157
-      WalkUp_7: -1244795668
-      WalkUp_8: -1982290413
-      WalkUp_9: 1181269813
-  mipmapLimitGroupName: 
+      Tile_12: -1116676482
+      Tile_5: 1468212821
+      Tile_10: 1633547631
+      Tile_0: 1549035750
+      Tile_8: 1036262908
+      Tile_13: -1283297383
+      Tile_9: -1698669712
+      Tile_11: -1875452455
+      Tile_2: -1187591525
+      Tile_3: -575510893
+      Tile_6: 763609452
+      Tile_7: 1067753738
+      Tile_4: -2071240759
+      Tile_14: -664539042
+      Tile_1: 1002575659
+      Tile_15: 514680028
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
