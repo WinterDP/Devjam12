@@ -9,6 +9,8 @@ public class MovimentoPlayer : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer imagem;
+    [SerializeField] private Transform FacingDirectionTransform;
+    private bool isFacingRight = true;
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -32,20 +34,26 @@ public class MovimentoPlayer : MonoBehaviour
             if (x > 0)
             {
                 anim.SetBool("andandoHorizontal", true);
+                isFacingRight = true;
+                FacingDirectionTransform.localPosition = new Vector3(3, 0, 0);
                 imagem.flipX = false;
             }
             if (x < 0)
             {
                 anim.SetBool("andandoHorizontal", true);
+                isFacingRight = false;
+                FacingDirectionTransform.localPosition = new Vector3(-3, 0, 0);
                 imagem.flipX = true;
             }
             if (y > 0)
             {
                 anim.SetBool("andandoVertical", true);
+                FacingDirectionTransform.localPosition = new Vector3(0, 3, 0);
             }
             if (y < 0)
             {
                 anim.SetBool("andandoVertical", true);
+                FacingDirectionTransform.localPosition = new Vector3(0, -3, 0);
             }
         }
         else
