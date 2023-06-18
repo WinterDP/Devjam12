@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb2443b4a63f8c741a5e13e66663694c
+guid: 692ff527b1ae2b443aa3b242b14e9259
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WonkyWalk_0
+      name: Walk UpDown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b63bf7864098ba47a6cce5d854ee09c
-      internalID: 551065707
+      spriteID: 913a6b9bc70a97143a67ca6f3aeca168
+      internalID: 1733814061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalk_1
+      name: Walk UpDown_1
       rect:
         serializedVersion: 2
         x: 16
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc92f6499b08c44e820c4521840da1b
-      internalID: 917649798
+      spriteID: 70b746ba34cf41640852dcb2868dcaa3
+      internalID: 632841136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalk_2
+      name: Walk UpDown_2
       rect:
         serializedVersion: 2
         x: 32
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cbe97818fed6ef4a8b8786c8e228cf4
-      internalID: -595061609
+      spriteID: 4852cb78b8333a04dad412c3783c8a1d
+      internalID: -1984621823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WonkyWalk_3
+      name: Walk UpDown_3
       rect:
         serializedVersion: 2
         x: 48
@@ -182,8 +182,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfb7100cf6dfe24697760dbaa5cb66a
-      internalID: -121422885
+      spriteID: 699cb77c6e694aa48804304417117bde
+      internalID: -770489055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk UpDown_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d8ef5fdf827ae4cb02d68fb01ff1ea
+      internalID: 841641817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk UpDown_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d637daa067bf9b4b861e5d198cc0b75
+      internalID: 2092053111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk UpDown_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f4f13dc2b116c479dd8d657dbce228
+      internalID: -749521556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk UpDown_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d52e2623ee1a45bb236599a3465c0
+      internalID: 1290924078
       vertices: []
       indices: 
       edges: []
@@ -199,10 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WonkyWalk_1: 917649798
-      WonkyWalk_2: -595061609
-      WonkyWalk_0: 551065707
-      WonkyWalk_3: -121422885
+      Walk UpDown_5: 2092053111
+      Walk UpDown_3: -770489055
+      Walk UpDown_2: -1984621823
+      Walk UpDown_1: 632841136
+      Walk UpDown_4: 841641817
+      Walk UpDown_0: 1733814061
+      Walk UpDown_7: 1290924078
+      Walk UpDown_6: -749521556
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

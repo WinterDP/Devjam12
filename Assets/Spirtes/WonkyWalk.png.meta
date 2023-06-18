@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb2443b4a63f8c741a5e13e66663694c
+guid: 23d30ca240ba8004da7bb0fb794a2980
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b63bf7864098ba47a6cce5d854ee09c
-      internalID: 551065707
+      spriteID: d71e3817d73eb8c428e2170c962f3b2c
+      internalID: -217615689
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc92f6499b08c44e820c4521840da1b
-      internalID: 917649798
+      spriteID: 6bfce17e52cf0a24888b13e0e9a9b3b7
+      internalID: 1101645429
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cbe97818fed6ef4a8b8786c8e228cf4
-      internalID: -595061609
+      spriteID: 4ccab02b43b360c48846ac18d25c2b8a
+      internalID: 508226949
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfb7100cf6dfe24697760dbaa5cb66a
-      internalID: -121422885
+      spriteID: 02814776408d9da4aaa1632032ae0d45
+      internalID: 24648901
       vertices: []
       indices: 
       edges: []
@@ -199,10 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WonkyWalk_1: 917649798
-      WonkyWalk_2: -595061609
-      WonkyWalk_0: 551065707
-      WonkyWalk_3: -121422885
+      WonkyWalk_1: 1101645429
+      WonkyWalk_2: 508226949
+      WonkyWalk_0: -217615689
+      WonkyWalk_3: 24648901
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
