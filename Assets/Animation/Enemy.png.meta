@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5aef269e46577a94d81f775d7888feb6
+guid: aa6b8a1dde4594344b59287ff24c0bba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,301 +116,176 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkUp_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72bc6370901a9ab4c9e2016a848bb5f7
-      internalID: 661874966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_1
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2a643dc1fbe0a2428bcf820bb826a9e
-      internalID: 2058145310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf345e83737451a4198ea27f078d0193
-      internalID: 1191069862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_3
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f4768c5e65378346bcdc890ec348136
-      internalID: 838797286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_4
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8171c665127361544a166b774d4429cf
-      internalID: 1604047545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be6f685cfd276914990d9c10a5f2ffa2
-      internalID: 1469052303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_6
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 320
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ca4134fa75776947a2a1f99d93c25c7
-      internalID: 273509157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_7
+      name: Enemy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfa20c38f352e342b695873deb542c2
-      internalID: -1244795668
+      spriteID: b591ed092c35cd446a4a43aec4a5d25b
+      internalID: -1114631841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_8
+      name: Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24706c11c5097f49b48d0511a0e0c4a
+      internalID: -1566820661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3cab08a2574234587e3442b652f98f
+      internalID: 1916274670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333d5b6fe80e4554fb9508ab8f2a03a4
+      internalID: -583631030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308ea5908130afd4ca870b758446fa9b
+      internalID: -248919589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e7fbae2b24b8904c8bb5ab13ea63d30
-      internalID: -1982290413
+      spriteID: 269a2b757a53cad4388fb2a8456057b5
+      internalID: 17166118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_9
+      name: Enemy_6
       rect:
         serializedVersion: 2
-        x: 320
+        x: 192
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45766520f5f510140808a6f9665e2064
-      internalID: 1181269813
+      spriteID: 064010f7e0c7eb74db929f51bc402b48
+      internalID: -890334748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkUp_10
+      name: Enemy_7
       rect:
         serializedVersion: 2
-        x: 480
+        x: 224
         y: 0
-        width: 160
-        height: 320
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a4c14bbd0d89845afdebe769e9a46d
-      internalID: -943697615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_11
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71ddb0c5dca6f3a4e8c286857fb81ea2
-      internalID: -1819761705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_12
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d2f3cf9cb50e9b49bd7048ec89b3d7a
-      internalID: -1530791886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkUp_13
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 160
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ef710b9ca674f544885dabe531a4584
-      internalID: -1135464281
+      spriteID: eab888afcc824f04299a718b13007ba4
+      internalID: 613894897
       vertices: []
       indices: 
       edges: []
@@ -421,23 +301,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WalkUp_13: -1135464281
-      WalkUp_0: 661874966
-      WalkUp_12: -1530791886
-      WalkUp_10: -943697615
-      WalkUp_3: 838797286
-      WalkUp_1: 2058145310
-      WalkUp_4: 1604047545
-      WalkUp_2: 1191069862
-      WalkUp_7: -1244795668
-      WalkUp_8: -1982290413
-      WalkUp_9: 1181269813
-      WalkUp_5: 1469052303
-      WalkUp_6: 273509157
-      WalkUp_11: -1819761705
-  spritePackingTag: 
+      Enemy_0: -1114631841
+      Enemy_1: -1566820661
+      Enemy_2: 1916274670
+      Enemy_3: -583631030
+      Enemy_4: -248919589
+      Enemy_5: 17166118
+      Enemy_6: -890334748
+      Enemy_7: 613894897
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
