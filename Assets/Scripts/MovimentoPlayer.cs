@@ -21,8 +21,14 @@ public class MovimentoPlayer : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (movement.x != 0 && movement.y != 0)
+        {
+            rb.MovePosition(rb.position + movement * (moveSpeed/2) * Time.fixedDeltaTime);
+        }
+        else
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
         
     }
     private void SetAnimation(float x, float y)

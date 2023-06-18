@@ -209,7 +209,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.48}
+  m_Size: {x: 0.14, y: 0.23}
   m_EdgeRadius: 0
 --- !u!50 &4578068881945244834
 Rigidbody2D:
@@ -226,7 +226,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
   - {fileID: 4578068880883284109}
   - {fileID: 4578068881983516830}
   rb: {fileID: 4578068881945244834}
-  velocidade: 5
+  velocidade: 2.5
 --- !u!95 &4578068881945244838
 Animator:
   serializedVersion: 5
