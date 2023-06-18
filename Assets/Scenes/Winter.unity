@@ -1201,40 +1201,9 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
---- !u!1 &874876819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 874876820}
-  m_Layer: 0
-  m_Name: FacingDirection
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &874876820
+--- !u!4 &874876820 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874876819}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1180099338}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1180099338 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
+  m_CorrespondingSourceObject: {fileID: 874876820, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
   m_PrefabInstance: {fileID: 1226763836}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1226763836
@@ -1248,25 +1217,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927097, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1307,26 +1260,6 @@ PrefabInstance:
     - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927099, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927100, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: FacingDirectionTransform
-      value: 
-      objectReference: {fileID: 874876820}
-    - target: {fileID: 4337482354563927101, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_Size.y
-      value: 1.3851529
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927101, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.9074237
-      objectReference: {fileID: 0}
-    - target: {fileID: 4337482354563927102, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e2f1b18580d94645ab5f42bf3841b60, type: 3}
