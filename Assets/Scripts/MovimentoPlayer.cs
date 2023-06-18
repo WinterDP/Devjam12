@@ -27,27 +27,29 @@ public class MovimentoPlayer : MonoBehaviour
     }
     private void SetAnimation(float x, float y)
     {
-        if ((x != 0)||(y != 0))
+        if (x > 0)
         {
-            if (x > 0)
-            {
-                anim.SetBool("andandoHorizontal", true);
-                imagem.flipX = false;
-            }
-            if (x < 0)
-            {
-                anim.SetBool("andandoHorizontal", true);
-                imagem.flipX = true;
-            }
-            if (y > 0)
-            {
-                anim.SetBool("andandoVertical", true);
-            }
-            if (y < 0)
-            {
-                anim.SetBool("andandoVertical", true);
-            }
+            anim.SetBool("andandoHorizontal", true);
+            anim.SetBool("andandoVertical", false);
+            imagem.flipX = false;
         }
+        else if (x < 0)
+        {
+            anim.SetBool("andandoHorizontal", true);
+            anim.SetBool("andandoVertical", false);
+            imagem.flipX = true;
+        }
+        else if (y > 0)
+        {
+            anim.SetBool("andandoVertical", true);
+            anim.SetBool("andandoHorizontal", false);
+        }
+        else if (y < 0)
+        {
+            anim.SetBool("andandoVertical", true);
+            anim.SetBool("andandoHorizontal", false);
+        }
+            
         else
         {
             anim.SetBool("andandoHorizontal", false);
