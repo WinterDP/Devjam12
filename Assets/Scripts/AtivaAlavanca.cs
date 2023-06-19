@@ -14,7 +14,7 @@ public class AtivaAlavanca : MonoBehaviour
                 for (int i = 0; i < libera.Length; i++)
                 {
                 //libera[i].gameObject.SetActive(false);
-                libera[i].GetComponent<Animator>().Play("OpenDoorLever");
+                    libera[i].GetComponent<Animator>().Play("OpenDoorLever");
                     libera[i].GetComponent<Collider2D>().enabled = false;
                 }
                 gameObject.transform.position = move;

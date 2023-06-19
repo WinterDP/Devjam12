@@ -9,8 +9,11 @@ public class PegaChave : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameController.chave = true;
-            gameObject.transform.position = move;
+            if (!GameController.chave)
+            {
+                GameController.chave = true;
+                gameObject.transform.position = move;
+            }
         }
     }
 }
