@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public static bool chave = false;
     private float[] distancia;
     private int menor;
+    public bool IsSeeing;
     private void Start()
     {
         menor = 0;
@@ -43,10 +44,12 @@ public class GameController : MonoBehaviour
                 if (j == menor)
                 {
                     ativa[menor].enabled = true;
+                    IsSeeing = true;
                 }
                 else
                 {
                     ativa[j].enabled = false;
+                    IsSeeing = true;
                 }
             }
         }
@@ -55,6 +58,7 @@ public class GameController : MonoBehaviour
             for (int j = 0; j < lugar.Length; j++)
             {
                 ativa[j].enabled = false;
+                IsSeeing = false;
             }
         }
     }

@@ -12,10 +12,11 @@ public class ShowClosestTile : MonoBehaviour
     [SerializeField] private Tilemap _tileMap;
 
     [SerializeField] private Transform _player;
+    [SerializeField] private float _minDistance;
 
-    [SerializeField] private Tile _tile;
+    //[SerializeField] private Tile _tile;
 
-    [SerializeField] private List<Vector3> _tilesAdresses = new List<Vector3>();
+    private List<Vector3> _tilesAdresses = new List<Vector3>();
     private Vector3 _currentTileAdress;
     private Vector3 _previousTileAdress;
 
@@ -66,14 +67,22 @@ public class ShowClosestTile : MonoBehaviour
 
     private void ManageTiles()
     {
-        //Debug.Log( _tileMap.GetColor(_tileMap.WorldToCell(_currentTileAdress)));
-        _tileMap.SetColor(_tileMap.WorldToCell(_currentTileAdress), _visible);
-        if (_currentTileAdress != _previousTileAdress)
+        if (Vector3.Distance(_currentTileAdress, _player.transform.position) < _minDistance && !GetComponent<GameController>().IsSeeing)
         {
-            _tileMap.SetColor(_tileMap.WorldToCell(_previousTileAdress), _invisible);
+            //Debug.Log( _tileMap.GetColor(_tileMap.WorldToCell(_currentTileAdress)));
+            _tileMap.SetColor(_tileMap.WorldToCell(_currentTileAdress), _visible);
+            if (_currentTileAdress != _previousTileAdress)
+            {
+                _tileMap.SetColor(_tileMap.WorldToCell(_previousTileAdress), _invisible);
+            }
+            _tileMap.RefreshTile(_tileMap.WorldToCell(_previousTileAdress));
+            _tileMap.RefreshTile(_tileMap.WorldToCell(_currentTileAdress));
         }
-        _tileMap.RefreshTile(_tileMap.WorldToCell(_previousTileAdress));
-        _tileMap.RefreshTile(_tileMap.WorldToCell(_currentTileAdress));
+        else
+        {
+            _tileMap.SetColor(_tileMap.WorldToCell(_currentTileAdress), _invisible);
+        }
+        
 
     }
 
