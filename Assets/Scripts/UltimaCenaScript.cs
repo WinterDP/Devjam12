@@ -29,7 +29,7 @@ public class UltimaCenaScript : MonoBehaviour
                 inimigos[i].SetActive(true);
             }
         }
-        if(contador > 2000)
+        if(contador > 1500)
         {
             SceneManager.LoadScene("PerderJogo");
         }
