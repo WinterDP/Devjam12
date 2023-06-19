@@ -47,7 +47,8 @@ public class GameController : MonoBehaviour
                     IsSeeing = true;
                     if (ativa[menor].gameObject.CompareTag("Enemy"))
                     {
-                        AudioManager.Instance.PlaySound("Som Inimigo");
+                        if(!AudioManager.Instance.IsPlayingSound("Som Inimigo"))
+                            AudioManager.Instance.PlaySound("Som Inimigo");
                     }
 
                 }
@@ -57,7 +58,8 @@ public class GameController : MonoBehaviour
                     IsSeeing = true;
                     if (ativa[j].gameObject.CompareTag("Enemy"))
                     {
-                        AudioManager.Instance.PlaySound("Som Inimigo");
+                        //if (!AudioManager.Instance.IsPlayingSound("Som Inimigo"))
+                            //AudioManager.Instance.PlaySound("Som Inimigo");
                     }
                 }
                 
