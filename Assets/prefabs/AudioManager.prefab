@@ -55,7 +55,7 @@ MonoBehaviour:
     name: Andando
     clip: {fileID: 8300000, guid: 7514af68462159d46a10684de060b4a6, type: 3}
     volume: 1
-    pitch: 0.1
+    pitch: 0.3
     loop: 1
   - audioSource: {fileID: 0}
     name: 
@@ -91,7 +91,7 @@ MonoBehaviour:
     name: Pegar Chave
     clip: {fileID: 8300000, guid: b9431928d04c213498aad78f580edd5a, type: 3}
     volume: 1
-    pitch: 0.2
+    pitch: 0.6
     loop: 0
   - audioSource: {fileID: 0}
     name: Porta Chave
@@ -102,6 +102,12 @@ MonoBehaviour:
   - audioSource: {fileID: 0}
     name: Porta Alavanca
     clip: {fileID: 8300000, guid: 849fc707db4da2749840d4d73af77ed4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - audioSource: {fileID: 0}
+    name: Som Inimigo
+    clip: {fileID: 8300000, guid: 06f31b62a0e22d345bec2af700ccbb24, type: 3}
     volume: 1
     pitch: 1
     loop: 0
