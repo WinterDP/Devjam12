@@ -81,6 +81,7 @@ public class ShowClosestTile : MonoBehaviour
         else
         {
             _tileMap.SetColor(_tileMap.WorldToCell(_currentTileAdress), _invisible);
+            _tileMap.SetColor(_tileMap.WorldToCell(_previousTileAdress), _invisible);
         }
         
 

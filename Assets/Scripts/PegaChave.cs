@@ -11,6 +11,7 @@ public class PegaChave : MonoBehaviour
         {
             if (!GameController.chave)
             {
+                AudioManager.Instance.PlaySound("Pegar Chave");
                 GameController.chave = true;
                 gameObject.transform.position = move;
             }

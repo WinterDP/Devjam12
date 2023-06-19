@@ -6,19 +6,20 @@ public class AudioManager : MonoBehaviour
 {
     [SerializeField] private Sound[] sounds;
 
-    public static AudioManager instance;
+    public static AudioManager Instance { get; private set; }
 
     private void Awake ()
     {
-        if (instance == null)
+        if (Instance != null && Instance != this)
         {
-            instance = this;
+            Destroy(gameObject);
         }
         else
         {
-            Destroy(gameObject, 2f);
-            return;
+            Instance = this;
         }
+
+
 
         DontDestroyOnLoad(gameObject);
 
@@ -41,6 +42,17 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.audioSource.Play();
+    }
+
+    public bool IsPlayingSound(string name)
+    {
+        Sound sound = FindSound(name);
+        if (sound == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return false;
+        }
+        return sound.audioSource.isPlaying;
     }
 
     public void StopSound (string name)

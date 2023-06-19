@@ -15,10 +15,12 @@ public class AtivaAlavanca : MonoBehaviour
                 {
                 //libera[i].gameObject.SetActive(false);
                     libera[i].GetComponent<Animator>().Play("OpenDoorLever");
-                 
+                    
                     libera[i].GetComponent<Collider2D>().enabled = false;
                 }
-                gameObject.transform.position = move;
+                AudioManager.Instance.PlaySound("Alavanca");
+                AudioManager.Instance.PlaySound("Porta Alavanca");
+            gameObject.transform.position = move;
             }
     }
 }

@@ -45,12 +45,22 @@ public class GameController : MonoBehaviour
                 {
                     ativa[menor].enabled = true;
                     IsSeeing = true;
+                    if (ativa[menor].gameObject.CompareTag("Enemy"))
+                    {
+                        AudioManager.Instance.PlaySound("Som Inimigo");
+                    }
+
                 }
                 else
                 {
                     ativa[j].enabled = false;
                     IsSeeing = true;
+                    if (ativa[j].gameObject.CompareTag("Enemy"))
+                    {
+                        AudioManager.Instance.PlaySound("Som Inimigo");
+                    }
                 }
+                
             }
         }
         else

@@ -7,19 +7,19 @@ public class MainMenu : MonoBehaviour
 {
     private void Start() 
     {
-        FindObjectOfType<AudioManager>().PlaySound("Musica Menu");
+        AudioManager.Instance.PlaySound("Musica Menu");
         Debug.Log("Tocando");    
     }
     public void PlayGame()
-    {   
-        FindObjectOfType<AudioManager>().PlaySound("Botao");
+    {
+        AudioManager.Instance.PlaySound("Botao");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        FindObjectOfType<AudioManager>().StopSound("Musica Menu");
+        AudioManager.Instance.StopSound("Musica Menu");
     }
 
     public void QuitGame()
     {   
-        FindObjectOfType<AudioManager>().PlaySound("Botao");
+        AudioManager.Instance.PlaySound("Botao");
         Application.Quit();
     }
 }

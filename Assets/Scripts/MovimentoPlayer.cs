@@ -19,6 +19,7 @@ public class MovimentoPlayer : MonoBehaviour
     }
     private void Start()
     {
+        //AudioManager.Instance.PlaySound("Musica 1");
         anim = GetComponent<Animator>();
     }
     private void FixedUpdate()
@@ -34,12 +35,15 @@ public class MovimentoPlayer : MonoBehaviour
                 movement.x *= speedLimit;
                 movement.y *= speedLimit;
             }
-            //AudioManager.instance.PlaySound("andando");
+            if (!AudioManager.Instance.IsPlayingSound("Andando"))
+            {
+                AudioManager.Instance.PlaySound("Andando");
+            }
+            
             rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
         }
         else
         {
-            //AudioManager.instance.StopSound("andando");
             rb.velocity = new Vector2(0f, 0f);
         }
 
@@ -79,6 +83,7 @@ public class MovimentoPlayer : MonoBehaviour
             anim.SetBool("andandoHorizontal", false);
             anim.SetBool("andandoVertical", false);
             imagem.flipX = false;
+            AudioManager.Instance.StopSound("Andando");
         }
     }
 }

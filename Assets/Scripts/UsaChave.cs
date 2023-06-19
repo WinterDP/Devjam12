@@ -11,6 +11,7 @@ public class UsaChave : MonoBehaviour
             if (GameController.chave)
             {
                 gameObject.GetComponent<Animator>().Play("DoorKeyOpen");
+                AudioManager.Instance.PlaySound("Porta Chave");
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 GameController.chave = false;
                 //gameObject.SetActive(false);
