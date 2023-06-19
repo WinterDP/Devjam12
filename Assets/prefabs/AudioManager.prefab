@@ -55,7 +55,7 @@ MonoBehaviour:
     name: Andando
     clip: {fileID: 8300000, guid: 7514af68462159d46a10684de060b4a6, type: 3}
     volume: 1
-    pitch: 0.3
+    pitch: 1
     loop: 1
   - audioSource: {fileID: 0}
     name: 
