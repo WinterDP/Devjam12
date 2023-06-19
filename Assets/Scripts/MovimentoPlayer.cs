@@ -49,27 +49,27 @@ public class MovimentoPlayer : MonoBehaviour
         {
             anim.SetBool("andandoHorizontal", true);
             anim.SetBool("andandoVertical", false);
-            FacingDirectionTransform.localPosition = new Vector3(3, 0, 0);
+            FacingDirectionTransform.localPosition = new Vector3(0.5f, 0, 0);
             imagem.flipX = false;
         }
         else if (x < 0)
         {
             anim.SetBool("andandoHorizontal", true);
             anim.SetBool("andandoVertical", false);
-            FacingDirectionTransform.localPosition = new Vector3(-3, 0, 0);
+            FacingDirectionTransform.localPosition = new Vector3(-0.5f, 0, 0);
             imagem.flipX = true;
         }
         else if (y > 0)
         {
             anim.SetBool("andandoVertical", true);
             anim.SetBool("andandoHorizontal", false);
-            FacingDirectionTransform.localPosition = new Vector3(0, 3, 0);
+            FacingDirectionTransform.localPosition = new Vector3(0, 0.5f, 0);
         }
         else if (y < 0)
         {
             anim.SetBool("andandoVertical", true);
             anim.SetBool("andandoHorizontal", false);
-            FacingDirectionTransform.localPosition = new Vector3(0, -3, 0);
+            FacingDirectionTransform.localPosition = new Vector3(0, -0.5f, 0);
         }
 
         else
