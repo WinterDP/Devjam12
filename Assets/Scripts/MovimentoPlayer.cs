@@ -34,10 +34,12 @@ public class MovimentoPlayer : MonoBehaviour
                 movement.x *= speedLimit;
                 movement.y *= speedLimit;
             }
+            //AudioManager.instance.PlaySound("andando");
             rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
         }
         else
         {
+            //AudioManager.instance.StopSound("andando");
             rb.velocity = new Vector2(0f, 0f);
         }
 

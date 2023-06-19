@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
-    path: Assets/Scenes/PerderJogo.unity
-    guid: e5511116ec96d0d418b0b92239be56d1
-  - enabled: 0
-    path: Assets/Scenes/UltimaFase.unity
-    guid: 5e541f8963b87fe48a5be5110844725b
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 0b89ae740f2849f418fdc845623132af
@@ -26,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level 3.unity
     guid: 4ab0fd7b6e0f1c04e9cf9bb15db155e4
+  - enabled: 1
+    path: Assets/Scenes/UltimaFase.unity
+    guid: 5e541f8963b87fe48a5be5110844725b
   m_configObjects: {}

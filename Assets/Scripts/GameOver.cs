@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("PerderJogo");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

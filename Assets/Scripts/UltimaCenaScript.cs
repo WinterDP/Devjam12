@@ -31,7 +31,7 @@ public class UltimaCenaScript : MonoBehaviour
         }
         if(contador > 1500)
         {
-            SceneManager.LoadScene("PerderJogo");
+            SceneManager.LoadScene("MainMenu");
         }
         contador++;
     }

@@ -1152,21 +1152,21 @@ MonoBehaviour:
   - audioSource: {fileID: 0}
     name: 
     clip: {fileID: 8300000, guid: bdaf3d636940aa04683f81ebf5f4ed57, type: 3}
-    volume: 0
+    volume: 1
     pitch: 0
     loop: 0
   - audioSource: {fileID: 0}
-    name: 
+    name: andando
     clip: {fileID: 8300000, guid: 1ec57656d498d6f4eb7f17c1b312229e, type: 3}
-    volume: 0
+    volume: 1
     pitch: 0
     loop: 1
   - audioSource: {fileID: 0}
     name: 
     clip: {fileID: 8300000, guid: 9295d2e213218bb46b69c92ef9c299a7, type: 3}
-    volume: 0
+    volume: 1
     pitch: 0
-    loop: 0
+    loop: 1
 --- !u!4 &1899929728
 Transform:
   m_ObjectHideFlags: 0
