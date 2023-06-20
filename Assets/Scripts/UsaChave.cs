@@ -13,6 +13,7 @@ public class UsaChave : MonoBehaviour
                 gameObject.GetComponent<Animator>().Play("DoorKeyOpen");
                 AudioManager.Instance.PlaySound("Porta Chave");
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                gameObject.GetComponent<SpriteRenderer>().sortingOrder = 8;
                 GameController.chave = false;
                 //gameObject.SetActive(false);
             }

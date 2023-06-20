@@ -15,15 +15,18 @@ public class UltimaCenaScript : MonoBehaviour
         Debug.Log(contador);
         if(contador > 300)
         {
+            
             inimigos[1].SetActive(true);
         }
         if (contador > 600)
         {
+            
             inimigos[2].SetActive(true);
             inimigos[3].SetActive(true);
         }
         if(contador > 1200)
         {
+            
             for (int i = 0; i<20; i++)
             {
                 inimigos[i].SetActive(true);
@@ -31,6 +34,9 @@ public class UltimaCenaScript : MonoBehaviour
         }
         if(contador > 1500)
         {
+            AudioManager.Instance.StopSound("Andando");
+            AudioManager.Instance.StopSound("Ambiente");
+            AudioManager.Instance.StopSound("Musica Principal");
             SceneManager.LoadScene("MainMenu");
         }
         contador++;

@@ -5,21 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class NextFase : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("troca de fase");
+        //Debug.Log("troca de fase");
+        AudioManager.Instance.StopSound("Andando");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -13,7 +13,7 @@ public class PegaChave : MonoBehaviour
             {
                 AudioManager.Instance.PlaySound("Pegar Chave");
                 GameController.chave = true;
-                gameObject.transform.position = move;
+                Destroy(gameObject);
             }
         }
     }
